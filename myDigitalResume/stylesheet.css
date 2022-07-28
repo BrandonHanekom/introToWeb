@@ -1,0 +1,52 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #D9ACD7;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+#resumePhoto {
+    border: 5px solid aliceblue;
+    border-radius: 66%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu {
+    background-color: #FDA8A3;
+    text-align: left;
+    width:fit-content;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    color: aliceblue;
+}
+
+#content {
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #ffd1dc;
+    text-align: center;
+    color: aliceblue;
+}
+
+#contact {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
