@@ -1,17 +1,31 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 110%;
-    background-color: aliceblue;
     display: flex;
     flex-direction: column;
+    background-color: #D9ACD7;
+    color: aliceblue;
 }
 
+a:visited { 
+    text-decoration: none; 
+    color: aliceblue; 
+   }
+
 header {
-    background-color: #D9ACD7;
+    background-color: black;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     color: aliceblue;
+}
+
+p {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
 #resumePhoto {
@@ -25,7 +39,7 @@ header {
 }
 
 #menu {
-    background-color: #FDA8A3;
+    background-color: #89cff0;
     text-align: left;
     width:fit-content;
     padding-top: 25px;
@@ -41,7 +55,7 @@ header {
 }
 
 footer {
-    background-color: #ffd1dc;
+    background-color: black;
     text-align: center;
     color: aliceblue;
 }
